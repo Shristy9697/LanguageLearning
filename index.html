@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LanguageFeeling | Jan Porstmann</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="hero">
+
+    <!-- LOGO (add your file later: assets/logo.png) -->
+    <img src="assets/logo.png" class="logo" alt="LanguageFeeling Logo">
+
     <h1>LanguageFeeling</h1>
-    <p>German & English Lessons with Jan Porstmann</p>
+    <p class="subtitle">German & English Language Coaching with Jan Porstmann</p>
 
     <div class="lang-switch">
         <button onclick="setLanguage('en')">English</button>
         <button onclick="setLanguage('de')">Deutsch</button>
     </div>
+
+    <a class="cta" href="https://calendly.com/janporstmann" target="_blank">
+        Book a Trial Lesson
+    </a>
+
 </header>
 
 <!-- ABOUT -->
-<section>
-    <h2 data-en="About Jan" data-de="Über Jan">About Jan</h2>
+<section class="section">
 
-    <p data-en="
-Have you been learning German or English without seeing real progress? Do lessons feel boring, confusing, or disconnected from real communication?
+    <div class="grid">
+
+        <!-- PROFILE IMAGE (add: assets/jan.jpg) -->
+        <img src="assets/jan.jpg" class="profile" alt="Jan Porstmann">
+
+        <div>
+            <h2 data-en="About Jan" data-de="Über Jan">About Jan</h2>
+
+            <p data-en="
+Have you been learning German or English without real progress?
 
 LanguageFeeling is built differently.
 
-Hi, I'm Jan Porstmann, a language teacher with a background in Linguistics and Economics. I have taught more than 4,000 hours since 2017 and helped students, professionals, and language enthusiasts achieve real results.
+I am Jan Porstmann, a language teacher with a background in Linguistics and Economics. I have taught more than 4,000 hours since 2017.
 
-My Professional Background:
+My background:
 - MA in Linguistics & Economics
-- Speaks 6 languages
+- 6 languages spoken
 - 7 language exchange programs in England
-- High school diploma from the USA
-- 4,000+ teaching hours since 2017
+- High school diploma in the USA
+- 4,000+ teaching hours
 
-My approach focuses on meaning, not memorization. You learn language through real communication, not just textbook rules.
+My approach focuses on meaning, not memorization. You learn language through real communication, not textbooks.
 
-I use real materials like novels, songs, movies, podcasts, and news so learning feels natural and relevant.
+I also use novels, movies, podcasts, music, and news to make learning relevant and engaging.
 "
 data-de="
-Hast du Deutsch oder Englisch gelernt, ohne echte Fortschritte zu sehen? Fühlen sich deine Kurse langweilig oder unklar an?
+Hast du Deutsch oder Englisch gelernt, ohne echte Fortschritte zu sehen?
 
 LanguageFeeling ist anders.
 
@@ -50,60 +66,124 @@ Ich bin Jan Porstmann, Sprachlehrer mit Hintergrund in Linguistik und Wirtschaft
 
 Mein Hintergrund:
 - MA in Linguistik & Wirtschaft
-- Spricht 6 Sprachen
+- 6 Sprachen
 - 7 Sprachaufenthalte in England
-- High School Diploma aus den USA
+- High School Diploma in den USA
 - Über 4.000 Unterrichtsstunden
 
-Mein Ansatz:
-Sprache durch Bedeutung verstehen statt durch Auswendiglernen.
+Mein Ansatz: Bedeutung statt Auswendiglernen.
 
-Ich arbeite mit echten Materialien:
-Bücher, Filme, Musik, Podcasts und Nachrichten.
+Ich arbeite mit echten Materialien wie Büchern, Filmen, Podcasts, Musik und Nachrichten.
 ">
-About text
+About
+            </p>
+
+            <!-- LINKS -->
+            <p>
+                🔗 LinkedIn: 
+                <a href="https://www.linkedin.com/in/jan-porstmann-a97437211/details/experience/" target="_blank">
+                    View Profile
+                </a>
+            </p>
+
+            <p>
+                📘 Published Book: 
+                <a href="https://www.amazon.de/-/en/LanguageFeeling-ebook/dp/B086J56MDH/ref=sr_1_1?crid=PEZ2BGNVBI8I&sprefix=jan+porstmann%2Caps%2C178&sr=8-1" target="_blank">
+                    LanguageFeeling on Amazon
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- APPROACH -->
+<section class="section alt">
+
+    <h2 data-en="Teaching Approach" data-de="Lehransatz">Teaching Approach</h2>
+
+    <p data-en="
+Most language courses focus on grammar rules.
+
+I focus on meaning first.
+
+When you understand what language does, grammar becomes intuitive.
+
+We use real-world input:
+books, movies, podcasts, music, and news.
+"
+data-de="
+Die meisten Sprachkurse konzentrieren sich auf Grammatik.
+
+Ich konzentriere mich auf Bedeutung.
+
+Wenn du Sprache verstehst, wird Grammatik intuitiv.
+
+Wir arbeiten mit echten Materialien.
+">
     </p>
+
 </section>
 
 <!-- SERVICES -->
-<section>
-    <h2 data-en="What I Can Help You With" data-de="Dabei helfe ich dir">What I Can Help You With</h2>
+<section class="section">
 
-    <ul>
-        <li data-en="Exam preparation (ZP-10, Abitur)" data-de="Prüfungsvorbereitung (ZP-10, Abitur)">Exam preparation</li>
-        <li data-en="Job interview preparation" data-de="Vorbereitung auf Vorstellungsgespräche">Job interviews</li>
-        <li data-en="Business German & English" data-de="Business Deutsch & Englisch">Business language</li>
-        <li data-en="Academic writing & term papers" data-de="Akademisches Schreiben & Hausarbeiten">Academic writing</li>
-        <li data-en="Everyday communication & speaking confidence" data-de="Alltagssprache & Sprechsicherheit">Speaking confidence</li>
-    </ul>
+    <h2 data-en="What I Can Help You With" data-de="Dabei helfe ich dir">Services</h2>
+
+    <div class="cards">
+        <div class="card">Exam Preparation</div>
+        <div class="card">Business German & English</div>
+        <div class="card">Job Interviews</div>
+        <div class="card">Academic Writing</div>
+        <div class="card">Speaking Confidence</div>
+        <div class="card">Study Abroad Support</div>
+    </div>
+
 </section>
 
 <!-- PRICING -->
-<section>
+<section class="section alt">
+
     <h2 data-en="Pricing" data-de="Preise">Pricing</h2>
 
-    <h3 data-en="Trial Lesson" data-de="Probestunde">Trial Lesson</h3>
-    <p>€10 (refunded if you continue)</p>
+    <div class="pricing">
+        <div class="price-card">
+            <h3>Trial Lesson</h3>
+            <p>€10 (refunded if continued)</p>
+        </div>
 
-    <h3 data-en="Single Lessons" data-de="Einzelstunden">Single Lessons</h3>
-    <p>45 min — €39 | 60 min — €49 | 90 min — €59</p>
+        <div class="price-card">
+            <h3>60 Minutes</h3>
+            <p>€49</p>
+        </div>
 
-    <h3 data-en="Packages" data-de="Pakete">Packages</h3>
-    <p data-en="A1–C1 structured learning packages available from €399 to €1,599."
-       data-de="A1–C1 strukturierte Lernpakete von €399 bis €1.599 verfügbar."></p>
+        <div class="price-card">
+            <h3>90 Minutes</h3>
+            <p>€59</p>
+        </div>
+    </div>
+
 </section>
 
 <!-- CONTACT -->
-<section>
+<section class="section">
+
     <h2 data-en="Contact" data-de="Kontakt">Contact</h2>
 
     <p>Email: <a href="mailto:janpo1995@web.de">janpo1995@web.de</a></p>
-    <p data-en="Online lessons worldwide via Zoom. In-person in Düsseldorf."
-       data-de="Online-Unterricht weltweit via Zoom. Präsenzunterricht in Düsseldorf."></p>
+
+    <p data-en="Online worldwide via Zoom. In-person in Düsseldorf."
+       data-de="Online weltweit via Zoom. Präsenz in Düsseldorf."></p>
+
+    <a class="cta" href="https://calendly.com/janporstmann" target="_blank">
+        Schedule a Lesson
+    </a>
+
 </section>
 
 <footer>
-    <p>© 2026 LanguageFeeling | Jan Porstmann</p>
+    © 2026 LanguageFeeling | Jan Porstmann
 </footer>
 
 <script src="script.js"></script>
