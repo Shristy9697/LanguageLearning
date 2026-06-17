@@ -1,468 +1,445 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>German & English Language Coaching</title>
-<meta name="description" content="Professional German and English language coaching for professionals, students, job seekers, and university applicants.">
+<!-- WHO I WORK WITH -->
 
-<style>
-:root {
-    --primary: #1e3a5f;
-    --secondary: #4f7cac;
-    --accent: #f4b942;
-    --light: #f8fafc;
-    --dark: #1f2937;
-    --gray: #6b7280;
-    --shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
+<section class="light-section">
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    line-height: 1.6;
-    color: var(--dark);
-    background: white;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-header {
-    background: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.logo {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--primary);
-}
-
-.nav-links {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: var(--dark);
-    font-weight: 500;
-}
-
-.book-btn {
-    background: var(--accent);
-    color: white;
-    padding: 0.8rem 1.4rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.book-btn:hover {
-    opacity: 0.9;
-}
-
-.hero {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: white;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    max-width: 700px;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-
-.cta-btn {
-    background: var(--accent);
-    color: white;
-    text-decoration: none;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    font-weight: bold;
-    display: inline-block;
-}
-
-section {
-    padding: 80px 0;
-}
-
-.section-title {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.section-title h2 {
-    color: var(--primary);
-    font-size: 2.2rem;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap: 25px;
-}
-
-.card {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: var(--shadow);
-}
-
-.card h3 {
-    color: var(--primary);
-    margin-bottom: 10px;
-}
-
-.pricing-table {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 25px;
-}
-
-.price-card {
-    text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: var(--shadow);
-}
-
-.price {
-    font-size: 2rem;
-    color: var(--accent);
-    font-weight: bold;
-    margin: 15px 0;
-}
-
-.about {
-    background: var(--light);
-}
-
-.about-content {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-}
-
-.testimonials {
-    background: #f9fafb;
-}
-
-.testimonial {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: var(--shadow);
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact-info {
-    margin-top: 20px;
-}
-
-footer {
-    background: var(--primary);
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.mobile-menu {
-    display: none;
-}
-
-@media(max-width:768px){
-    .hero h1{
-        font-size:2.2rem;
-    }
-
-    .nav-links{
-        display:none;
-    }
-
-    .mobile-menu{
-        display:block;
-        cursor:pointer;
-        font-size:1.5rem;
-    }
-
-    .nav-links.active{
-        display:flex;
-        flex-direction:column;
-        position:absolute;
-        top:70px;
-        right:20px;
-        background:white;
-        padding:20px;
-        border-radius:10px;
-        box-shadow:var(--shadow);
-    }
-}
-</style>
-</head>
-
-<body>
-
-<header>
 <div class="container">
-<nav>
-<div class="logo">Language Coaching</div>
 
-<div class="mobile-menu" onclick="toggleMenu()">☰</div>
-
-<div class="nav-links" id="navLinks">
-<a href="#services">Services</a>
-<a href="#pricing">Pricing</a>
-<a href="#about">About</a>
-<a href="#testimonials">Testimonials</a>
-<a href="#contact">Contact</a>
-</div>
-
-<a class="book-btn" href="https://calendly.com/YOUR-LINK" target="_blank">
-Book a Lesson
-</a>
-</nav>
-</div>
-</header>
-
-<section class="hero">
-<div class="container">
-<h1>German & English Language Coaching</h1>
+<div class="section-title">
+<h2>Who I Work With</h2>
 
 <p>
-Personalized lessons for professionals, students,
-job seekers, and university applicants. Improve
-your communication skills with practical, results-driven coaching.
+Whether you're preparing for exams, building a career,
+or simply passionate about languages.
 </p>
 
-<a class="cta-btn" href="https://calendly.com/YOUR-LINK" target="_blank">
-Book Your First Lesson
-</a>
-</div>
-</section>
-
-<section id="services">
-<div class="container">
-<div class="section-title">
-<h2>Services</h2>
 </div>
 
 <div class="cards">
 
 <div class="card">
-<h3>🇩🇪 German Lessons</h3>
+<h3>🎓 Students</h3>
 <p>
-From beginner to advanced. Focus on speaking,
-grammar, pronunciation, and fluency.
+School support, ZP10, Abitur,
+university preparation and academic writing.
 </p>
 </div>
 
 <div class="card">
-<h3>💼 Business German</h3>
+<h3>🌍 Expats</h3>
 <p>
-Meetings, presentations, workplace communication,
-professional emails, and networking.
+Build confidence for daily life,
+integration and communication in Germany.
 </p>
 </div>
 
 <div class="card">
-<h3>🎯 Interview Preparation</h3>
+<h3>💼 Professionals</h3>
 <p>
-Prepare for job interviews, assessment centers,
-and career opportunities in Germany.
+Business German, meetings,
+presentations and workplace communication.
 </p>
 </div>
 
 <div class="card">
-<h3>🎓 Admissions Support</h3>
+<h3>🚀 Job Seekers</h3>
 <p>
-University interviews, motivation letters,
-academic communication, and application support.
+Interview preparation,
+applications and career development.
 </p>
 </div>
 
 </div>
+
 </div>
+
 </section>
 
-<section id="pricing">
+
+<!-- STUDENT JOURNEY -->
+
+<section>
+
 <div class="container">
 
 <div class="section-title">
+
+<h2>Your Learning Journey</h2>
+
+<p>
+A structured and personalized approach.
+</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>1. Trial Lesson</h3>
+<p>
+Meet, discuss goals,
+identify challenges and create direction.
+</p>
+</div>
+
+<div class="card">
+<h3>2. Assessment</h3>
+<p>
+Evaluate current level,
+strengths and areas for improvement.
+</p>
+</div>
+
+<div class="card">
+<h3>3. Learning Plan</h3>
+<p>
+Develop a personalized roadmap
+based on your goals.
+</p>
+</div>
+
+<div class="card">
+<h3>4. Progress & Growth</h3>
+<p>
+Regular feedback,
+measurable progress and confidence.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PRICING -->
+
+<section id="pricing" class="light-section">
+
+<div class="container">
+
+<div class="section-title">
+
 <h2>Pricing</h2>
-</div>
-
-<div class="pricing-table">
-
-<div class="price-card">
-<h3>45 Minutes</h3>
-<div class="price">€35</div>
-<p>Private lesson</p>
-</div>
-
-<div class="price-card">
-<h3>60 Minutes</h3>
-<div class="price">€45</div>
-<p>Private lesson</p>
-</div>
-
-<div class="price-card">
-<h3>90 Minutes</h3>
-<div class="price">€65</div>
-<p>Private lesson</p>
-</div>
-
-<div class="price-card">
-<h3>Group Class</h3>
-<div class="price">Custom</div>
-<p>Contact for group rates</p>
-</div>
-
-</div>
-</div>
-</section>
-
-<section id="about" class="about">
-<div class="container">
-
-<div class="section-title">
-<h2>About Me</h2>
-</div>
-
-<div class="about-content">
 
 <p>
-Hello! I'm a professional German and English language coach
-helping international students, professionals, and job seekers
-build confidence and communicate effectively.
+Transparent pricing and flexible learning options.
 </p>
 
-<br>
-
-<p>
-My lessons are practical, personalized, and focused on helping
-you achieve your academic, professional, and personal goals.
-</p>
-
-</div>
-</div>
-</section>
-
-<section id="testimonials" class="testimonials">
-<div class="container">
-
-<div class="section-title">
-<h2>Testimonials</h2>
 </div>
 
 <div class="cards">
 
-<div class="testimonial">
-<p>
-"Thanks to these lessons, I successfully passed my German job interview and received an offer."
-</p>
-<br>
-<strong>— Maria, Software Engineer</strong>
-</div>
+<div class="card">
 
-<div class="testimonial">
-<p>
-"The business German sessions helped me communicate confidently with clients and colleagues."
-</p>
-<br>
-<strong>— Ahmed, Project Manager</strong>
-</div>
+<h3>Trial Lesson</h3>
 
-<div class="testimonial">
-<p>
-"I improved my speaking skills quickly and felt much more confident in everyday conversations."
-</p>
-<br>
-<strong>— Elena, University Student</strong>
-</div>
+<div style="
+font-size:2rem;
+font-weight:700;
+color:var(--navy);
+margin:15px 0;
+">
+
+€10
 
 </div>
+
+<p>
+If you continue with lessons afterwards,
+the €10 is refunded.
+</p>
+
 </div>
+
+<div class="card">
+
+<h3>45 Minutes</h3>
+
+<div style="
+font-size:2rem;
+font-weight:700;
+color:var(--navy);
+margin:15px 0;
+">
+
+€39
+
+</div>
+
+<p>Individual lesson</p>
+
+</div>
+
+<div class="card">
+
+<h3>60 Minutes</h3>
+
+<div style="
+font-size:2rem;
+font-weight:700;
+color:var(--navy);
+margin:15px 0;
+">
+
+€49
+
+</div>
+
+<p>Most popular option</p>
+
+</div>
+
+<div class="card">
+
+<h3>90 Minutes</h3>
+
+<div style="
+font-size:2rem;
+font-weight:700;
+color:var(--navy);
+margin:15px 0;
+">
+
+€79
+
+</div>
+
+<p>Intensive session</p>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Group Lessons</h3>
+
+<p>
+Starting from €69 for 3 participants.
+</p>
+
+<p>
+Each additional participant: +€10
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Business Programs</h3>
+
+<p>
+Customized language coaching
+for companies and teams.
+</p>
+
+<p>
+Pricing available upon request.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="contact" class="contact">
+
+<!-- FAQ -->
+
+<section>
+
 <div class="container">
 
 <div class="section-title">
-<h2>Contact</h2>
+
+<h2>Frequently Asked Questions</h2>
+
 </div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Do you teach beginners?</h3>
+<p>Yes. From complete beginners to advanced learners.</p>
+</div>
+
+<div class="card">
+<h3>Do you teach Business German?</h3>
+<p>Yes. Individual professionals and company programs.</p>
+</div>
+
+<div class="card">
+<h3>Online or in person?</h3>
+<p>Online worldwide via Zoom and in person in Düsseldorf.</p>
+</div>
+
+<div class="card">
+<h3>Can you help with interviews?</h3>
+<p>Yes. Job interviews, university admissions and applications.</p>
+</div>
+
+<div class="card">
+<h3>Which levels do you teach?</h3>
+<p>A1 to C2 and beyond.</p>
+</div>
+
+<div class="card">
+<h3>Do you provide learning materials?</h3>
+<p>Yes. Materials are selected based on your goals and interests.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="light-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Get in Touch</h2>
 
 <p>
-Ready to improve your language skills?
-Book a lesson or get in touch.
+Ready to start your language journey?
 </p>
 
-<div class="contact-info">
-<p>Email: yourname@email.com</p>
-<p>Location: Germany (Online Worldwide)</p>
 </div>
 
-<br>
+<div style="
+max-width:800px;
+margin:auto;
+text-align:center;
+">
 
-<a class="cta-btn" href="https://calendly.com/YOUR-LINK" target="_blank">
-Book a Lesson
+<p style="margin-bottom:10px;">
+📧 janpo1995@web.de
+</p>
+
+<p style="margin-bottom:30px;">
+📍 Düsseldorf, Germany & Online Worldwide
+</p>
+
+<div class="hero-buttons"
+style="
+justify-content:center;
+">
+
+<a class="primary-btn"
+href="https://calendly.com/janporstmann"
+target="_blank">
+
+Book a Trial Lesson
+
+</a>
+
+<a class="secondary-btn"
+href="https://www.linkedin.com/in/jan-porstmann-a97437211/"
+target="_blank">
+
+LinkedIn
+
 </a>
 
 </div>
+
+</div>
+
+</div>
+
 </section>
 
-<footer>
-<p>© 2026 Your Name | German & English Language Coaching</p>
+
+<!-- FOOTER -->
+
+<footer style="
+background:var(--navy);
+color:white;
+padding:50px 0;
+">
+
+<div class="container">
+
+<div style="
+display:grid;
+grid-template-columns:2fr 1fr 1fr;
+gap:40px;
+">
+
+<div>
+
+<h3 style="margin-bottom:15px;">
+LanguageFeeling
+</h3>
+
+<p>
+Where Languages Start Making Sense.
+</p>
+
+<p style="margin-top:15px;">
+German & English Language Coaching
+</p>
+
+</div>
+
+<div>
+
+<h4 style="margin-bottom:15px;">
+Navigation
+</h4>
+
+<p><a href="#programs" style="color:white;">Programs</a></p>
+<p><a href="#about" style="color:white;">About</a></p>
+<p><a href="#pricing" style="color:white;">Pricing</a></p>
+
+</div>
+
+<div>
+
+<h4 style="margin-bottom:15px;">
+Contact
+</h4>
+
+<p>janpo1995@web.de</p>
+<p>Düsseldorf & Online</p>
+
+</div>
+
+</div>
+
+<hr style="
+margin:30px 0;
+border:none;
+border-top:1px solid rgba(255,255,255,.2);
+">
+
+<p style="text-align:center;">
+© 2026 LanguageFeeling | Jan Porstmann
+</p>
+
+</div>
+
 </footer>
 
+
+<!-- LANGUAGE SWITCH PLACEHOLDER -->
+
 <script>
-function toggleMenu() {
-    document.getElementById('navLinks').classList.toggle('active');
-}
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+console.log("LanguageFeeling loaded successfully.");
 
-        document.querySelector(this.getAttribute('href'))
-            .scrollIntoView({
-                behavior: 'smooth'
-            });
-    });
-});
 </script>
 
 </body>
