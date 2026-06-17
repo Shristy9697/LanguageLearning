@@ -1,66 +1,97 @@
-body{
-margin:0;
-font-family:Arial;
-background:white;
-color:#0f172a;
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: white;
+    color: #0f172a;
+    line-height: 1.7;
 }
 
-.hero{
-text-align:center;
-padding:80px 20px;
+.hero {
+    text-align: center;
+    padding: 100px 20px;
 }
 
-.logo{width:120px}
-
-.subtitle{color:#334155}
-
-.cta{
-display:inline-block;
-margin-top:20px;
-padding:14px 28px;
-background:#0f2a4a;
-color:white;
-text-decoration:none;
-border-radius:6px;
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
 }
 
-.section{
-max-width:1000px;
-margin:auto;
-padding:80px 20px;
+.subtitle {
+    color: #334155;
 }
 
-.alt{background:#f8fafc}
-
-.grid{
-display:grid;
-grid-template-columns:1fr 2fr;
-gap:40px;
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #0f2a4a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
-.profile{width:100%;border-radius:10px}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:10px;
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 90px 20px;
 }
 
-.card{
-border:1px solid #ddd;
-padding:15px;
-text-align:center;
+.alt {
+    background: #f8fafc;
 }
 
-.pricing{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:10px;
-text-align:center;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
 }
 
-footer{
-text-align:center;
-padding:40px;
-color:#64748b;
+.profile {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-card {
+    border: 1px solid #e2e8f0;
+    padding: 25px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #64748b;
+}
+
+.lang-switch button {
+    margin: 10px;
+    padding: 8px 14px;
+    border: 1px solid #0f172a;
+    background: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .grid, .cards, .pricing {
+        grid-template-columns: 1fr;
+    }
 }
